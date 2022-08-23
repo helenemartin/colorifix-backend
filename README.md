@@ -1,11 +1,12 @@
+Tech test for Colorifix
+
 Colorifix-backend
 
-Tech test for Colorifix
 
 This the repositery for the database API and backend for the Colorifix test
 
 The database is built with Sqlite, SQLalchemy.
-The API is genarated with FastAPI. The logic is coded in Python3
+The API is generated with FastAPI. The logic is coded in Python3
 
 API endpoints are created to be consumed on the Colorifix client created with React App.
 The Aim is to create a User table with Company and Permission tables as Foreign Keys
