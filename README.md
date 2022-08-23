@@ -25,11 +25,16 @@ Clone the React app Colorifix-frontend
 https://github.com/helenemartin/colorifix-frontend
 
 TODO
+
 .Clear cached git files from the repo
-.Fix bugs: I can't assign a company to a user
+
+.Fix bugs: I can't assign a company to a user:
 sqlalchemy.exc.InterfaceError: (sqlite3.InterfaceError) Error binding parameter 1 - probably unsupported type.
+
 [SQL: INSERT INTO user (username, company_id) VALUES (?, ?)]
 [parameters: ('raddish@yahoo.co.uk', <db.models.DbCompany object at 0x0000013629D63DF0>)]
+
 .Fix the User end point to be properly consumed on the React app in order to list users
+
 .Create a persmission table in order to assign user roles
 
