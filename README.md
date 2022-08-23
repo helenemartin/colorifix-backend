@@ -18,7 +18,7 @@ py -m uvicorn  --reload main:app
 To access this URL:
 http://localhost:8000/docs#/
 
-Make sure the server is running 
+Make sure the colorifix-backend server is running so the API end points are consumed on the Client side
 
 
 
