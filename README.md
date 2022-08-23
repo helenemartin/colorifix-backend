@@ -14,7 +14,7 @@ The Aim is to create a User table with Company and Permission tables as Foreign 
 Please clone the repository on your local machine and activate the virtual environment (venv)
 Initialise the FasAPI swagger by typing in your terminal:
 
-py -m uvicorn  --reload main:app
+py -m uvicorn main:app
 
 To access this URL:
 http://localhost:8000/docs#/
