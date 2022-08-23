@@ -10,7 +10,6 @@ class CompanyBase(BaseModel):
     name: str
 
 
-
 class UserDisplay(BaseModel):
     username: str
     class Config():
