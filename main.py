@@ -2,12 +2,13 @@ from fastapi import FastAPI
 from sqlalchemy.sql.functions import user
 from db import models
 from db.database import engine
-from routers import user
+from routers import user, company
 from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI()
 
 app.include_router(user.router)
+app.include_router(company.router)
 
 
 @app.get("/")
@@ -30,7 +31,6 @@ app.add_middleware(
   allow_methods=['*'],
   allow_headers=['*']
 )
-
 
 
 models.Base.metadata.create_all(engine)
