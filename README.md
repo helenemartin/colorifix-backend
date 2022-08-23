@@ -1,6 +1,6 @@
-Tech test for Colorifix
+Tech test for Colorifix 1/2
 
-Colorifix-backend
+1/Colorifix-backend
 
 
 This the repositery for the database API and backend for the Colorifix test
@@ -21,5 +21,6 @@ http://localhost:8000/docs#/
 
 Make sure the colorifix-backend server is running so the API end points are consumed on the Client side
 
-
+Clone the React app Colorifix-frontend
+https://github.com/helenemartin/colorifix-frontend
 
