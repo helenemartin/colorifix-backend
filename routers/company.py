@@ -14,6 +14,6 @@ def create_company(request: CompanyBase, db: Session = Depends(get_db)):
   return db_company.create_company(db, request)
 
 @router.get('/all')
-def users(db: Session = Depends(get_db)):
+def companies(db: Session = Depends(get_db)):
   return db_company.get_all(db)
 

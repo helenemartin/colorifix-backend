@@ -6,7 +6,7 @@ from sqlalchemy.orm.session import Session
 
 def create_company(db: Session, request: CompanyBase):
   new_company = DbCompany(
-    name = request.name
+    name=request.name
   )
   db.add(new_company)
   db.commit()
